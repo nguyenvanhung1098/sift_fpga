@@ -7,7 +7,7 @@ if (length(dir('test.jpg'))>0)
  vis = I(:,:,1);
  
  % padding vien anh voi gia tri 0
- vis = padarray(vis, [2 2], 0, 'both');
+ %vis = padarray(vis, [2 2], 0, 'both');
  %ir = padarray(ir, [2 2], 0, 'both');
  [nrws ncls] = size(vis);
  offset = 100;
