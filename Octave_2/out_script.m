@@ -16,7 +16,13 @@ figure, imshow(uint8(img_out));
 %--------------------------------------------------------------%
  for i=2:60
          image_result(pixel_out(i)-5:pixel_out(i)+5,pixel_out1(i)-5:pixel_out1(i)+5) = 255;
-end
+ end
+
+ 
+  figure, imshow(uint8(I));
+image = pixel_out.data(1950: 1949 + 480*640);
+img_out = round(reshape(image, 640, 480)');
+figure, imshow(uint8(img_out));
 %--------------------------------------------------------------%
 
 J = imread('test.jpg');
