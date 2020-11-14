@@ -1,9 +1,11 @@
-if (length(dir('coca_cola4.jpg'))>0)
+if (length(dir('test.jpg'))>0)
  % doc anh
- J = imread('coca_cola4.jpg');
+ J = imread('test.jpg');
  %I = rgb2gray(J);
  I = J(:,:,1);
  I = imresize(I, [480 640]);
+ I = I - 50;
+
  % anh tu camera thuong
  vis = I(:,:,1);
  

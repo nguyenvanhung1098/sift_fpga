@@ -20,7 +20,7 @@ figure, imshow(uint8(img_out));
 
  
   figure, imshow(uint8(I));
-image = pixel_out.data(1950: 1949 + 480*640);
+image = pixel_out.data(1978: 1977 + 480*640);
 img_out = round(reshape(image, 640, 480)');
 figure, imshow(uint8(img_out));
 %--------------------------------------------------------------%
