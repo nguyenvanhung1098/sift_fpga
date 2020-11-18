@@ -14,8 +14,8 @@ img_out = round(reshape(pixel_out, 640, 480)');
 figure, imshow(uint8(img_out));
 
 %--------------------------------------------------------------%
- for i=2:60
-         image_result(pixel_out(i)-5:pixel_out(i)+5,pixel_out1(i)-5:pixel_out1(i)+5) = 255;
+ for i=1:6
+         image1(row_match(i)-2:row_match(i)+2,column_match(i)-2:column_match(i)+2) = 255;
  end
 
  
@@ -23,6 +23,17 @@ figure, imshow(uint8(img_out));
 image = pixel_out.data(1978: 1977 + 480*640);
 img_out = round(reshape(image, 640, 480)');
 figure, imshow(uint8(img_out));
+
+
+
+isKeyPoint1 = isKeyPoint.time(find(isKeyPoint.data == 1));
+column = mod(isKeyPoint1 - 1978,640)
+row = round(isKeyPoint1/480);
+image = I;
+for i=1:22
+         image(row(i)-2:row(i)+2,column(i)-2:column(i)+2) ;
+ end
+figure, imshow(uint8(image));
 %--------------------------------------------------------------%
 
 J = imread('test.jpg');

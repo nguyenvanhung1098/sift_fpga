@@ -4,7 +4,7 @@ if (length(dir('test.jpg'))>0)
  %I = rgb2gray(J);
  I = J(:,:,1);
  I = imresize(I, [480 640]);
- I = I - 50;
+ I = I - 70;
 
  % anh tu camera thuong
  vis = I(:,:,1);
