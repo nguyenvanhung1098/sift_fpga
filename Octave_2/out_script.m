@@ -26,7 +26,7 @@ figure, imshow(uint8(img_out));
 
 
 
-isKeyPoint1 = isKeyPoint.time(find(isKeyPoint.data == 1));
+isKeyPoint2 = isKeyPoint.time(find(isKeyPoint.data == 1));
 column = mod(isKeyPoint1 - 1978,640)
 row = round(isKeyPoint1/480);
 image = I;
