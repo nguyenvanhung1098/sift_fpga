@@ -1,14 +1,14 @@
-if (length(dir('test6.jpg'))>0)
+if (length(dir('logo.png'))>0)
  % doc anh
- J = imread('test6.jpg');
- %I = rgb2gray(J);
- I = J(:,:,1);
+ J = imread('logo.png');
+ I = rgb2gray(J);
+ %I = J(:,:,1);
  I = imresize(I, [480 640]);
- %I = I - 70;
+ I = I - 100;
 
  % anh tu camera thuong
- vis = I(:,:,1);
- 
+ %vis = I(:,:,1);
+ vis = I;
  % padding vien anh voi gia tri 0
  %vis = padarray(vis, [2 2], 0, 'both');
  %ir = padarray(ir, [2 2], 0, 'both');

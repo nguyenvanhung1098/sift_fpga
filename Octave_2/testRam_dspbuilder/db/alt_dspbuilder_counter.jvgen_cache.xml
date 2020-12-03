@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jvgen name="alt_dspbuilder_counter" family="Cyclone" style="SUPERSET"
+    fixed-name="false" temporary="false">
+    <instance version="16.0" decorated-name="alt_dspbuilder_counter_GNIBE3FG2X">
+        <generic name="WIDTH" value="14"/>
+        <generic name="NDIRECTION" value="1"/>
+        <generic name="MODULUS" value="10000"/>
+        <generic name="AVALUE" value="0"/>
+        <generic name="SVALUE" value="1"/>
+        <generic name="USE_ENA" value="false"/>
+        <generic name="USE_CNT_ENA" value="true"/>
+        <generic name="USE_CIN" value="false"/>
+        <generic name="USE_USR_ACLR" value="false"/>
+        <generic name="USE_ASET" value="false"/>
+        <generic name="USE_ALOAD" value="false"/>
+        <generic name="USE_SCLR" value="true"/>
+        <generic name="USE_SSET" value="false"/>
+        <generic name="USE_SLOAD" value="false"/>
+        <generic name="USE_COUT" value="false"/>
+        <port name="aclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="clock" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cnt_ena" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="cout" dir="Output" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <port name="q" dir="Output"
+            vhdl-type="std_logic_vector(14-1 downto 0)" width="14" lowerbound="0"/>
+        <port name="sclr" dir="Input" vhdl-type="std_logic" width="1" lowerbound="0"/>
+        <generated-file file-type="VHDL" filename="alt_dspbuilder_counter_GNIBE3FG2X.vhd"/>
+    </instance>
+    <supersetport name="sclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="data" dir="Input"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cout" dir="Output" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="user_aclr" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cin" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="clock" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aset" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="aload" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="cnt_ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="q" dir="Output"
+        vhdl-type="std_logic_vector(width-1 downto 0)" lowerbound="0"/>
+    <supersetport name="ena" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sset" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="sload" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <supersetport name="direction" dir="Input" vhdl-type="std_logic" lowerbound="0"/>
+    <parameter-static name="WIDTH" default="8" type="NATURAL"/>
+    <parameter-static name="NDIRECTION" default="1" type="NATURAL"/>
+    <parameter-static name="MODULUS" default="256" type="INTEGER"/>
+    <parameter-static name="AVALUE" default="0" type="STRING"/>
+    <parameter-static name="SVALUE" default="0" type="STRING"/>
+    <parameter-static name="USE_ENA" default="false" type="STRING"/>
+    <parameter-static name="USE_CNT_ENA" default="false" type="STRING"/>
+    <parameter-static name="USE_CIN" default="false" type="STRING"/>
+    <parameter-static name="USE_USR_ACLR" default="false" type="STRING"/>
+    <parameter-static name="USE_ASET" default="false" type="STRING"/>
+    <parameter-static name="USE_ALOAD" default="false" type="STRING"/>
+    <parameter-static name="USE_SCLR" default="false" type="STRING"/>
+    <parameter-static name="USE_SSET" default="false" type="STRING"/>
+    <parameter-static name="USE_SLOAD" default="false" type="STRING"/>
+    <parameter-static name="USE_COUT" default="false" type="STRING"/>
+</jvgen>

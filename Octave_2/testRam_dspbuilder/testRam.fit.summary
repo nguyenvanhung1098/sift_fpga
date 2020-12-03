@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Dec 01 15:58:17 2020
+Quartus Prime Version : 16.0.2 Build 222 07/20/2016 SJ Standard Edition
+Revision Name : testRam
+Top-level Entity Name : testRam
+Family : Cyclone IV GX
+Device : EP4CGX22CF19C6
+Timing Models : Final
+Total logic elements : 131 / 21,280 ( < 1 % )
+    Total combinational functions : 94 / 21,280 ( < 1 % )
+    Dedicated logic registers : 68 / 21,280 ( < 1 % )
+Total registers : 68
+Total pins : 76 / 167 ( 46 % )
+Total virtual pins : 0
+Total memory bits : 480,000 / 774,144 ( 62 % )
+Embedded Multiplier 9-bit elements : 0 / 80 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 4 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 4 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

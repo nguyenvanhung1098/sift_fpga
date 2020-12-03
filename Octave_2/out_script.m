@@ -20,7 +20,7 @@ figure, imshow(uint8(img_out));
 
  
   figure, imshow(uint8(I));
-image = pixel_out.data(1978: 1977 + 480*640);
+image = pixel_out.data(3898: 3897 + 480*640);
 img_out = round(reshape(image, 640, 480)');
 figure, imshow(uint8(img_out));
 
@@ -30,7 +30,7 @@ isKeyPoint2 = isKeyPoint.time(find(isKeyPoint.data == 1));
 column = mod(isKeyPoint1 - 1978,640)
 row = round(isKeyPoint1/480);
 image = I;
-for i=1:22
+for i=1:193
          image(row(i)-2:row(i)+2,column(i)-2:column(i)+2) ;
  end
 figure, imshow(uint8(image));

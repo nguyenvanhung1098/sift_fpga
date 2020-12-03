@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Tue Dec 01 15:58:05 2020
+Quartus Prime Version : 16.0.2 Build 222 07/20/2016 SJ Standard Edition
+Revision Name : testRam
+Top-level Entity Name : testRam
+Family : Cyclone IV GX
+Total logic elements : 134
+    Total combinational functions : 94
+    Dedicated logic registers : 68
+Total registers : 68
+Total pins : 76
+Total virtual pins : 0
+Total memory bits : 480,000
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
